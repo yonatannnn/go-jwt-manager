@@ -17,9 +17,6 @@ import "github.com/yonatannnn/go-jwt-manager/auth"
 
 // Initialize with default 15-minute token expiration
 jwtManager := auth.NewJWTManager("your-secret-key-here")
-
-// Or with custom duration
-jwtManager := auth.NewJWTManagerWithDuration("your-secret-key-here", 24*time.Hour)
 ```
 
 ### 2. Token Generation
